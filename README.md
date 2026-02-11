@@ -101,7 +101,7 @@ sns.heatmap(pivot, annot=True, fmt='.1f', cmap='YlOrRd',
 
 ## Repository Contents
 
-- Python notebook (`.ipynb`) with complete analysis code
+- Google Colab Python notebook 
 - Visualization outputs (pie chart, heatmap, box plot, scatter plot)
 - Student dataset (CSV format)
 - README.md (this file)
