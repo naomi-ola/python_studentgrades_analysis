@@ -5,16 +5,16 @@ A comprehensive analysis of student academic performance using Python, examining
 ## Visualizations
 
 ### Grade Distribution
-![Grade Distribution](Screenshot_2026-02-05_121922.png)
+![Grade Distribution](pie-grade-distribution.png)
 
 ### Average Scores by Class and Gender
-![Average Scores Heatmap](Screenshot_2026-02-05_122213.png)
+![Average Scores Heatmap](heatmap-class-gender.png)
 
 ### Score Distribution Across Classes
-![Score Distribution by Class](Screenshot_2026-02-05_122036.png)
+![Score Distribution by Class](boxplot-score-distribution.png)
 
 ### Individual Student Performance
-![Student Scores Colored by Grade](Screenshot_2026-02-05_122743.png)
+![Student Scores Colored by Grade](scatter-student-scores.png)
 
 ## Key Findings
 
