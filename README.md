@@ -2,7 +2,7 @@
 
 A comprehensive analysis of student academic performance using Python, examining grade distributions, class-level performance patterns, and gender-based score differences across multiple numerically labelled classrooms.
 
-## Visualizations
+## Visualisations
 
 ### Grade Distribution
 ![Grade Distribution](pie-grade-distribution.png)
@@ -37,7 +37,7 @@ The heatmap analysis uncovered significant performance variations across differe
 **Actionable Insight**: Class Nine males require immediate academic support or investigation into teaching methods, as their 18.0 average is an outlier that could indicate systemic issues.
 
 ### Score Variability Analysis
-Box plot visualization revealed important patterns in score consistency:
+Box plot visualisation revealed important patterns in score consistency:
 
 - **Most consistent classes**: Classes Eight and Five show narrow score ranges with small interquartile ranges, suggesting uniform teaching effectiveness
 - **Highest variability**: Class Nine exhibits the widest score distribution (ranging from ~18 to 65), indicating inconsistent student performance or possible external factors affecting learning
@@ -50,15 +50,15 @@ Box plot visualization revealed important patterns in score consistency:
 **Tools and Libraries**:
 - **Python 3.x**: Core programming language
 - **Pandas**: Data manipulation and analysis
-- **Matplotlib**: Data visualization (pie charts, scatter plots, box plots)
-- **Seaborn**: Statistical visualizations (heatmap)
+- **Matplotlib**: Data visualisation (pie charts, scatter plots, box plots)
+- **Seaborn**: Statistical visualisations (heatmap)
 - **Google Colab**: Development and execution environment
 
 **Analysis Approach**:
 1. **Data Preparation**: Loaded student dataset containing student names, classes, scores, grades, and gender
 2. **Exploratory Data Analysis**: 
    - Calculated grade distribution using `value_counts()`
-   - Created pivot table to analyze average scores by class and gender
+   - Created pivot table to analyse average scores by class and gender
    - Generated box plots to examine score distributions and identify outliers
 3. **Visualization Strategy**: Used multiple chart types to reveal different insights:
    - Pie chart for categorical distribution (grades)
@@ -102,7 +102,7 @@ sns.heatmap(pivot, annot=True, fmt='.1f', cmap='YlOrRd',
 ## Repository Contents
 
 - Google Colab Python notebook 
-- Visualization outputs (pie chart, heatmap, box plot, scatter plot)
+- Visualisation outputs (pie chart, heatmap, box plot, scatter plot)
 - Student dataset (CSV format)
 - README.md (this file)
 
@@ -116,4 +116,4 @@ This analysis demonstrates practical applications of data science in education:
 
 ---
 
-*This project showcases proficiency in Python data analysis, statistical visualization, and translating educational data into actionable recommendations for school administrators.*
+*This project showcases proficiency in Python data analysis, statistical visualisation, and translating educational data into actionable recommendations for school administrators.*
